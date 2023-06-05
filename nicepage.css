@@ -1,0 +1,180 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#container{
+    margin: 0%;
+    /* border: 2px solid red; */
+    height: auto;
+    width: 100%;
+}
+#header{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    margin: 0%;
+}
+#nav{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    background-attachment: fixed;
+}
+#nav-left{
+    /* border: 2px solid green; */
+    height: 70px;
+    width: 10%;
+    text-align: center;
+    padding-top: 10px;
+}
+#nav-center{
+    /* border: 2px solid yellow; */
+    height: 70px;
+    width: 30%;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+#nav-center .anchor{
+    text-decoration: none;
+}
+.anchor img:hover{
+    background-color:#e2f0fc;
+}
+.anchor img:active{
+    background-color:#c9e4f9;
+}
+#nav-right{
+    /* border: 2px solid blue; */
+    height: 70px;
+    width: 4%;
+    text-align: center;
+    padding-top: 20px;
+}
+#main{
+    background-color: #1a1a1a;
+    color: #fff;
+    height: auto;    
+    background-attachment: fixed;
+    /* z-index: -1; */
+}
+#main #background{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url(./WhatsApp\ Image\ 2023-06-05\ at\ 10.25.38.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:650px;
+    /* margin-top: 0;
+    margin-bottom: 0; */
+}
+#content1{
+    /* border: 2px solid white; */
+    position: relative;
+    top: 320px;
+    height: auto;
+}
+h1{
+    /* border: 2px solid blueviolet; */
+    height: auto;
+    color: white;
+    font-size: 4.5rem;
+    font-weight: 400;
+    font-family: 'Palanquin Dark';
+    text-align: center;
+    z-index: -1;
+}
+#content2{
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    align-content: center;
+    height: auto;
+    width: 1137px;
+    margin: -78px auto 0;
+    /* color: #fff; */
+}
+#content2 #list{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 25px;
+    color: white;
+}
+#content2 #list .box1{
+    /* border: 2px solid green; */
+    background-color: white;
+    height: 480px;
+    width: 360px;
+    display: flex;
+}
+#content2 #list .box1 div{
+    padding: 25px;
+    color: #111;
+    line-height: 25px;
+    text-align: center;
+}
+h4{
+    font-size: 1.5rem;
+    font-family: 'Palanquin Dark';
+}
+#content2 #list .box1 div img{
+    height: 258px;
+    object-fit: cover;
+}
+#content2 #list .box1 div .des{
+    font-family: 'Open Sans',sans-serif;
+    font-style: italic;
+    font-size: large;
+    font-weight: 200;
+}
+#content2 #list .box1 div .price{
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #e73d0c;
+}
+#Freekpik{
+    margin-top:40px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    height: 60px;
+    font-family: 'Open Sans',sans-serif;
+}
+#Freekpik a{
+    color: #fff;
+    /* text-decoration: 1px solid white; */
+}
+#Freekpik a:hover{
+    border-bottom: 1px solid red;
+    text-decoration: none;
+}
+#foot{
+    /* border: 2px solid white; */
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 0.8rem;
+    background-color: #333;
+    color: #fff;
+}
+#foot div #lists{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+}
+#foot div #lists li span a{
+    /* border: 2px solid red; */
+    color: #adcce9;
+    text-decoration: underline;
+}
+#foot div #lists li span a:hover{
+    color: rgba(245, 245, 245, 0.385);
+    text-decoration: none;
+}
